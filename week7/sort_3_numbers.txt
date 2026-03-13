@@ -1,0 +1,12 @@
+1. Ask user to input 3 numbers and store them in variables smallest, middle, greatest
+    in the order they are entered.
+2. check smallest < middle   
+    if true go to next step
+    if false set swap = middle, middle = smallest, smallest = swap
+3. check smallest < greatest
+    if true go to next step
+    if false set swap = greatest, greatest = middle, middle = smallest, smallest = swap 
+4. check middle < greatest
+    if true go to next step
+    if false set swap = greatest, greatest = middle, middle = swap
+5. Print smallest, middle, greatest
